@@ -21,13 +21,13 @@ import 'package:firebase_core/firebase_core.dart';
 /// 10. For Google Sign-In: Add your domain to authorized domains in Authentication settings
 class FirebaseConfig {
   static const FirebaseOptions webOptions = FirebaseOptions(
-  apiKey: "AIzaSyAvodAJh7BGuitrF4yWkdYZcXvbcR-2ufk",
-  authDomain: "civic-complaint-platform.firebaseapp.com",
-  projectId: "civic-complaint-platform",
-  storageBucket: "civic-complaint-platform.firebasestorage.app",
-  messagingSenderId: "502308681100",
-  appId: "1:502308681100:web:8af0b85ae97043e28152a9",
-  measurementId: "G-KMCPL9YR8C" // Replace YOUR_PROJECT_ID with actual project ID
+  apiKey: "YOUR_FIREBASE_API_KEY",
+  authDomain: "your-project.firebaseapp.com",
+  projectId: "your-project-id",
+  storageBucket: "your-project.firebasestorage.app",
+  messagingSenderId: "YOUR_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  measurementId: "YOUR_MEASUREMENT_ID"
   );
 
   static const FirebaseOptions androidOptions = FirebaseOptions(

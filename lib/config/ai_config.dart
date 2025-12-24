@@ -13,7 +13,7 @@
 class AIConfig {
   /// Your Gemini API key
   /// Get it from: https://makersuite.google.com/app/apikey
-  static const String geminiApiKey = 'AIzaSyDQ0H_-WAYwgB0EZ81l1GeAHWhpuvWcoP0';
+  static const String geminiApiKey = 'YOUR_GEMINI_API_KEY_HERE';
   
   /// Check if API key is configured
   static bool get isConfigured => geminiApiKey != 'YOUR_GEMINI_API_KEY';
