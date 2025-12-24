@@ -1,0 +1,36 @@
+# Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test
+test/
+coverage/
+
+# Android
+android/
+ios/
+linux/
+macos/
+windows/
+
+# Keep only web build
+!build/web/
